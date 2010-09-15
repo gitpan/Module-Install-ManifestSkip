@@ -7,7 +7,7 @@ use Module::Install::Base;
 
 use vars qw($VERSION @ISA);
 BEGIN {
-    $VERSION = '0.10';
+    $VERSION = '0.11';
     @ISA     = 'Module::Install::Base';
 }
 
@@ -67,6 +67,9 @@ sub _skip_files {
 ^notes
 ^todo
 ^ToDo$
+\.DS_Store$ ## avoid OS X finder files
+\.kpf$ ## skip komodo project files
+~$ ## ignore emacs and vim backup files
 ...
 }
 
@@ -76,7 +79,7 @@ sub _skip_files {
 
 =head1 NAME
 
-Module::Install::TestML - Module::Install Support for TestML
+Module::Install::ManifestSkip - Generate a MANIFEST.SKIP file
 
 =head1 SYNOPSIS
 
@@ -119,7 +122,7 @@ Ingy döt Net <ingy@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2009, 2010. Ingy döt Net.
+Copyright (c) 2010. Ingy döt Net.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
