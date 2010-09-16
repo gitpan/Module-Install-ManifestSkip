@@ -7,7 +7,7 @@ use Module::Install::Base;
 
 use vars qw($VERSION @ISA);
 BEGIN {
-    $VERSION = '0.11';
+    $VERSION = '0.12';
     @ISA     = 'Module::Install::Base';
 }
 
@@ -67,9 +67,12 @@ sub _skip_files {
 ^notes
 ^todo
 ^ToDo$
-\.DS_Store$ ## avoid OS X finder files
-\.kpf$ ## skip komodo project files
-~$ ## ignore emacs and vim backup files
+## avoid OS X finder files
+^\.DS_Store$
+## skip komodo project files
+\.kpf$
+## ignore emacs and vim backup files
+~$
 ...
 }
 
