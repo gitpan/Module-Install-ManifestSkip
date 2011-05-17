@@ -1,17 +1,16 @@
 Changes
 inc/Module/Install.pm
-inc/Module/Install/AckXXX.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
 inc/Module/Install/Include.pm
 inc/Module/Install/Makefile.pm
-inc/Module/Install/ManifestSkip.pm
 inc/Module/Install/Metadata.pm
-inc/Module/Install/ReadmeFromPod.pm
+inc/Module/Install/Package.pm
 inc/Module/Install/TestML.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
+inc/Package.pm
 inc/Pegex/Base.pm
 inc/Pegex/Grammar.pm
 inc/TestML.pm
@@ -23,6 +22,7 @@ inc/TestML/Library/Standard.pm
 inc/TestML/Runtime.pm
 inc/TestML/Runtime/TAP.pm
 lib/Module/Install/ManifestSkip.pm
+lib/Module/Install/ManifestSkip.pod
 Makefile.PL
 MANIFEST			This list of files
 META.yml
@@ -30,5 +30,5 @@ README
 t/sample1/lib/Sample1.pm
 t/sample1/Makefile.PL
 t/sample1/ToDo
-t/skip.t
 t/test.t
+xt/skip.t
