@@ -19,4 +19,3 @@ t/sample1/lib/Sample1.pm
 t/sample1/Makefile.PL
 t/sample1/ToDo
 t/test.t
-xt/skip.t

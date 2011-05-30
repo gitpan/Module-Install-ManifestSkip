@@ -1,4 +1,10 @@
 ---
+version: 0.17
+date:
+changes:
+- Rerelease with Module::Package 0.17
+- Add ^xt/ to skips
+---
 version: 0.16
 date:    Mon May 30 00:52:46 EST 2011
 changes:
