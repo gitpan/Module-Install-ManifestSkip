@@ -21,7 +21,9 @@ no_index:
     - xt
 requires:
   Module::Manifest::Skip: 0.10
-  perl: 5.8.3
+  perl: 5.8.1
 resources:
+  homepage: http://github.com/ingydotnet/module-install-manifestskip-pm/tree
   license: http://dev.perl.org/licenses/
-version: 0.19
+  repository: git://github.com/ingydotnet/module-install-manifestskip-pm.git
+version: 0.20
