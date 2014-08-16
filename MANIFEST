@@ -9,7 +9,6 @@ Makefile.PL
 README
 lib/Module/Install/ManifestSkip.pm
 lib/Module/Install/ManifestSkip.pod
-t/000-compile-modules.t
 t/release-pod-syntax.t
 t/sample1/Foo~
 t/sample1/Makefile.PL
